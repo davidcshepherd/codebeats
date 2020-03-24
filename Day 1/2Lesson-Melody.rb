@@ -1,8 +1,8 @@
 use_bpm 93
 
-set :rfpath, "C:/Users/krugdl/Documents/GitHub/2019-CS305-VCUEng-Coding-with-Beats/Week Long Course/Day 1/Sonic Pi Files/"
+set :rfpath, "SET FILE PATH HERE!"
 
-run_file get(:rfpath)+"backgroundCode.rb"
+run_file get(:rfpath)+"/Humble.rb"
 
 live_loop :melody, sync: :start do
   use_synth :tech_saws
@@ -12,7 +12,7 @@ live_loop :melody, sync: :start do
   #  in background.
   #
   #  Use the play command followed by : and the note, for example:
-  #    play :A6
+  #    play :Ef5
   #
   #  After the play (in following row), use the sleep command
   #  expressing the period of time that you want to play the
@@ -21,41 +21,18 @@ live_loop :melody, sync: :start do
   #
   #  It means that the note will play for 1 beat.
   #
-  #  To do a better song (with the background song), at the first
-  #  measure (4 beats), you can play the following notes:
-  #    A6, B6, C7, D7, E7, F#7, G7, A7
-  #     - to use note F#7 in Sonic-Pi - use Fs7
+  #  To match the background music, you can play the following notes:
+  #    Eb5, Fb5, Gb5, Ab5, Bb5, Cb6, Db7
   #
-  #  You should emphasize (play more time) these notes:
-  #    A6, C7, E7
+  #  You should emphasize these notes:
+  #    Eb5, Gb5, Bb5
   #
   #  Tip: the sleeps must add up to 4.0 in total.
-  #   - it means the all sleeps toghether have to add up 4 in total
+  #  Tip: Fb5 is a FUNKY note!
   ##################################
   # Example:
-  # play :A6
-  # sleep 1
-  
-  sleep 4
-  
-  ##### First activity - Second measure #####
-  #  At the second part, you can use again the play and sleep
-  #
-  #  To do a better song (with the background song), at the second
-  #  measure (4 beats), you can play the following notes:
-  #    E6, F#6, G6, A6, B6, C7, D7, E7
-  #     - to use note F#6 in Sonic-Pi - use Fs6
-  #
-  #  You should emphasize (play more time) these notes:
-  #    E6, G6, B6
-  #
-  #  Tip: the sleeps must add up to 4.0 in total.
-  #   - it means the all sleeps toghether have to add up 4 in total
-  ##################################
-  # Example:
-  # play :E6
-  
-  sleep 4
-  
+  # play :Ab6
+  # sleep 1  
+  sleep 4    
   ##################################
 end
