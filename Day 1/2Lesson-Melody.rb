@@ -1,4 +1,4 @@
-use_bpm 93
+use_bpm  75
 
 live_loop :melody, sync: :start do
   use_synth :tech_saws
@@ -26,10 +26,15 @@ live_loop :melody, sync: :start do
   #  Tip: the sleeps must add up to 4.0 in total.
   #  Tip: Fb5 is a FUNKY note!
   ##################################
-  # Example:
-  # play :Ab6
-  # sleep 1  
-  sleep 4    
+  # Example:  
+  play :eb5
+  sleep 1
+  play :eb5
+  sleep 1
+  play :eb5
+  sleep 1
+  play :eb5
+  sleep 1  
   ##################################
 end
 
@@ -217,6 +222,7 @@ resetTime
 
 live_loop :conductor do
   #time
+  cue :start
   looper 1, 9
   
   counter
@@ -235,5 +241,4 @@ live_loop :conductor do
 end
 
 
-# Welcome to Sonic Pi v3.1
-
+# Scroll back to the top! 
