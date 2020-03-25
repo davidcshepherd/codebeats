@@ -25,16 +25,18 @@ live_loop :melody, sync: :start do
   #
   #  Tip: the sleeps must add up to 4.0 in total.
   #  Tip: Fb5 is a FUNKY note!
+  #  Tip: upload to https://bit.ly/submitBeats when done!
   ##################################
   # Example:  
-  play :eb5
-  sleep 1
-  play :eb5
-  sleep 1
-  play :eb5
-  sleep 1
-  play :eb5
-  sleep 1  
+  # play :eb5
+  # sleep 1
+  # play :eb5
+  # sleep 1
+  # play :eb5
+  # sleep 1
+  # play :eb5
+  # sleep 1  
+  sleep 4
   ##################################
 end
 
