@@ -219,12 +219,11 @@ live_loop :bass do
 end
 
 
-resetTime
+#resetTime
 #setBnB 21, 1
 
 live_loop :conductor do
   #time
-  cue :start
   looper 1, 9
   
   counter
