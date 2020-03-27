@@ -27,7 +27,7 @@ live_loop :melody, sync: :start do
   #  Tip: Fb5 is a FUNKY note!
   #  Tip: upload to https://bit.ly/submitBeats when done!
   ##################################
-  # Example:  
+  # Example:
   # play :eb5
   # sleep 1
   # play :eb5
@@ -35,7 +35,7 @@ live_loop :melody, sync: :start do
   # play :eb5
   # sleep 1
   # play :eb5
-  # sleep 1  
+  # sleep 1
   sleep 4
   ##################################
 end
@@ -219,7 +219,7 @@ live_loop :bass do
 end
 
 
-#resetTime
+resetTime
 #setBnB 21, 1
 
 live_loop :conductor do
@@ -242,4 +242,4 @@ live_loop :conductor do
 end
 
 
-# Scroll back to the top! 
+# Scroll back to the top!
