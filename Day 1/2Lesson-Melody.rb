@@ -224,6 +224,7 @@ resetTime
 
 live_loop :conductor do
   #time
+  cue :start
   looper 1, 9
   
   counter
