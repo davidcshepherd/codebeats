@@ -18,10 +18,10 @@ live_loop :melody, sync: :start do
   #  It means that the note will play for 1 beat.
   #
   #  To match the background music, you can play the following notes:
-  #    Eb5, Fb5, Gb5, Ab5, Bb5, Cb6, Db6
+  #    Ab4, Bb4, Cb5, Db5, Eb5, Fb5, Gb5
   #
   #  You should emphasize these notes:
-  #    Eb5, Gb5, Bb5
+  #    Ab4, Cb5, Eb5
   #
   #  Tip: the sleeps must add up to 4.0 in total.
   #  Tip: Fb5 is a FUNKY note!
