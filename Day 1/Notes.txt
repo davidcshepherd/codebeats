@@ -1,4 +1,0 @@
-Setup: 
-* Have Suge in Sonic Pi, ready to go
-* Have Humble ready without melody
-* Give demonstration with Twinkle Twinkle
