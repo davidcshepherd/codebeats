@@ -7,22 +7,27 @@ use_bpm 93
 live_loop :melody do
   use_synth :piano
   use_synth_defaults amp: 0.5
-  play :eb4, release: 0.2
+  #  To match the background music, you can play the following notes:
+  #    Eb5, Fb5, Gb5, Ab5, Bb5, Cb6, Db6
+  #
+  #  You should emphasize these notes:
+  #    Eb5, Gb5, Bb5
+  play :eb5, release: 0.2
   sleep 0.5
-  play :fb4, release: 0.2
+  play :fb5, release: 0.2
   sleep 0.5
-  play :eb4, release: 0.2
+  play :eb5, release: 0.2
   sleep 0.5
-  play :fb4, release: 0.2
+  play :fb5, release: 0.2
   sleep 0.5
   use_synth :pluck
-  play :eb4, release: 0.2
+  play :eb5, release: 0.2
   sleep 0.5
-  play :fb4, release: 0.2
+  play :fb5, release: 0.2
   sleep 0.5
-  play :eb4, release: 0.2
+  play :eb5, release: 0.2
   sleep 0.5
-  play :fb4, release: 0.2
+  play :fb5, release: 0.2
   sleep 0.5
 end
 
