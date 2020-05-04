@@ -8,7 +8,7 @@ live_loop :melody, sync: :start do
   #  in background.
   #
   #  Use the play command followed by : and the note, for example:
-  #    play :Ef5
+  #    play :Eb5
   #
   #  After the play (in following row), use the sleep command
   #  expressing the period of time that you want to play the
