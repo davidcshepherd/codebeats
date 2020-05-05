@@ -8,7 +8,7 @@ live_loop :melody, sync: :start do
     #
     #  Tip: the sleeps must add up to 8.0 in total (or multiples of 8).
     #  Tip: if the note is too long make the sustain shorter than 1.
-    #  Tip: upload to https://bit.ly/submitBeats when done!
+    #  Tip: upload to https://forms.gle/ThAM3PWDg3oQZmuJ9 when done!
     ##################################
     sample :drum_cowbell
     sleep 0.25
