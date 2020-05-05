@@ -1,6 +1,6 @@
 use_bpm  74
 
-live_loop :melody, sync: :conductor do
+live_loop :melody, sync: :start do
   use_synth :tech_saws
   use_synth_defaults amp: 0.6
   ##### Sixth activity #####
@@ -274,6 +274,7 @@ end
 live_loop :conductor do
   #time
   looper 1, 17
+  cue :start
   
   counter
   

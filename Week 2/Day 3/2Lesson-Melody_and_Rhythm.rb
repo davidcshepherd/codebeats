@@ -285,6 +285,7 @@ end
 live_loop :conductor do
   #time
   looper 1, 17
+  cue :start
   
   counter
   
