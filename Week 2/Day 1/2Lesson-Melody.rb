@@ -2,21 +2,25 @@ use_bpm  74
 
 live_loop :melody, sync: :start do
   use_synth :tech_saws
-  use_synth_defaults amp: 0.6
+  use_synth_defaults amp: 0.8
   ##### Sixth activity #####
   #  Create a melody that makes sense with the song that is playing
   #  in background.
   #
-  #  You can play the following notes:
-  #    Ab4, Bb4, Cb5, Db5, Eb5, Fb5, Gb5
+  #  You can play the following notes for the first 2.5 beats:
+  #    B3, Cs4, D4, E4, Fs4, G4, and A4
   #  And you should emphasize these notes:
-  #    Ab4, Cb5, Eb5
+  #    B3, D4, Fs4
+  #
+  #  For the second 1.5 beats, play the same notes,
+  #    but emphasize these notes:
+  #    D4, Fs4, A4
   #
   #  You can use samples too!
   #
   #  Try to use repetitions, for example:
   #  8.times do
-  #    play Ab4, release: 0.5
+  #    play D4, release: 0.5
   #    sleep 0.5
   #  end
   #
