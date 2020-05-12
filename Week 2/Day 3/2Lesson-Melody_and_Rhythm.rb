@@ -289,13 +289,13 @@ live_loop :conductor do
   
   counter
   
-  sequencer :piano, 1, 1, 1, 17, 1
-  sequencer :piano2, 1, 1, 1, 17, 1
-  sequencer :strings, 1, 1, 1, 9, 1
+  ##| sequencer :piano, 1, 1, 1, 17, 1
+  ##| sequencer :piano2, 1, 1, 1, 17, 1
+  ##| sequencer :strings, 1, 1, 1, 9, 1
   sequencer :hats, 1, 1, 1, 17, 1
   sequencer :snare, 1, 1, 1, 17, 1
   sequencer :kick, 1, 1, 1, 17, 1
-  sequencer :bass, 1, 1, 1, 17, 1
+  #sequencer :bass, 1, 1, 1, 17, 1
   
   sleep 1
   
