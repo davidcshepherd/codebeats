@@ -3,61 +3,40 @@ use_bpm  77
 live_loop :melody, sync: :start do
   use_synth :tech_saws
   use_synth_defaults amp: 0.8
-  ##### Eighth activity - First measure #####
-  #  Create a melody AND rhythm that makes sense with the song that
+  ##### Eighth activity #####
+  #  Add chords that makes sense with the song that
   #  is playing in background.
   #
-  #  Use the "play" command followed by ":" and the note, for example:
-  #    play :A6
+  #  Use the command "play chord" to indicate the chord that
+  #  your song will play, for example:
+  #    play chord(:e5, :minor)
   #
-  #  Note that you can alter the play command by changing its "release":
-  #    release - the time it takes for the note to fade away
+  #  You can play individual notes too to create a melody
   #
-  #  Example using "release":
-  #    play :A6, release: 0.5
+  #  Remember that you can use the parameters release and amp
   #
-  #  After "play" (in the following row), use the "sleep" command
-  #  expressing the period of time that you want to play the
-  #  note placed at the "play" above, for example:
-  #    sleep 1
+  #  Don't forget to use the sleep!
   #
-  #  This will cause the melody to pause for 1 beat.
+  #  You can use choose the chords do add in that song,
+  #  here is some sugestions:
   #
-  #  In the first measure (4 beats), you can play the following notes, in ANY rhythm:
-  #    A6, B6, C7, D7, E7, F#7, G7, A7
-  #  Note: to use note F#7 in Sonic-Pi - use Fs7
+  #  Chord E major in the 5th octave:
+  #  play chord(:E5, :major)
+  #  - it is composed by notes E5, G#5 and B5
   #
-  #  You should emphasize (play more often) these notes:
-  #    A6, C7, E7
+  #  Chord C major in the 5th octave:
+  #  play chord(:C5, :major)
+  #  - it is composed by notes C5, E5 and G5
+  #
+  #  Chord C# minor in the 4th octave:
+  #  play chord(:Cs4, :minor)
+  #  - it is composed by notes C#4, E4 and G#4
+  #
+  #  These chords are only sugestions, you can change the octaves too!!
   #
   #  Tip: the sleeps must add up to 4.0 in total.
   #  Tip2: You can use repetitions!
   ##################################
-  # Example:
-  # play :A6, release: 1
-  # sleep 1
-  
-  sleep 4 # remove this "sleep" and write your code here!
-  
-  
-  ##### Eighth activity - Second measure #####
-  #  At the second part, you can use again the play and sleep
-  #
-  #  To do a better song (with the background song), at the second
-  #  measure (4 beats), you can play the following notes, in ANY rhythm:
-  #    E6, F#6, G6, A6, B6, C7, D7, E7
-  #     - to use note F#6 in Sonic-Pi - use Fs6
-  #
-  #  You should emphasize (play more time) these notes:
-  #    E6, G6, B6
-  #
-  #  Tip: the sleeps must add up to 4.0 in total.
-  #   - it means the all sleeps toghether have to add up 4 in total
-  ##################################
-  # Example:
-  # play :E6, release: 1
-  # sleep 1
-  
   sleep 4 # remove this "sleep" and write your code here!
   
   ##################################
