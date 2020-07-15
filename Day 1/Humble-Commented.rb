@@ -5,7 +5,6 @@ set_mixer_control! amp: 1
 use_bpm  75 #This tells the program at what speed to play the music. BPM stands for beats per minute.
 #So if you have 60 bpm, you'll have one beat every second. 75 bpm means 75 beats every minute, or about 1.25 beats per second.
 
-#Are we keeping this part?
 ##### First activity - First measure #####
 #  Create a melody that makes sense with the song that is playing
 #  in background.
