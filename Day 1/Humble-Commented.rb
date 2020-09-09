@@ -36,7 +36,7 @@ use_bpm  75 #This tells the program at what speed to play the music. BPM stands 
 # play :eb5
 # sleep 1
 # play :eb5
-# sleep 1
+# sleep 1 #
 ##################################
 
 
